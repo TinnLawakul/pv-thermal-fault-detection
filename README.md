@@ -89,7 +89,15 @@ The images are not included in this repository; please download them from the so
 
 ## Use of AI tools
 
-<!-- TODO (เขียนเองตามจริง): ระบุว่าใช้ AI ช่วยส่วนไหน และส่วนไหนทำเอง
-     ตัวอย่างโครง: "Code in these notebooks was written with the help of Claude (Anthropic).
-     The experiments were planned with the advisor, run by the author, and all results and
-     decisions were checked by the author." -->
+This project used Claude (Anthropic) as an assistant for:
+
+- **Code:** writing and revising the notebook code (data loading, models, training loops, evaluation and statistics) from the experiments I specified.
+- **Literature:** finding and summarising papers on overfitting, model evaluation and PV fault detection. Every reference cited in the report was checked against its original source.
+- **Writing:** drafting and formatting the project report and this README.
+
+My own work:
+
+- Defining the project scope and the follow-up experiments with my advisor, based on the advisor's feedback at each meeting.
+- Running every experiment (R01–R172) on my own GPU and checking the outputs.
+- Interpreting the results and choosing the final model. The decision rules for model selection were fixed before the cross-validation runs (Notebooks 09 and 11).
+- Reviewing and editing the code and the report. I am responsible for all results and any errors in this repository.
