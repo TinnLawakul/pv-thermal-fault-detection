@@ -1,0 +1,14 @@
+setup,run,vs,best_right_other_wrong,best_wrong_other_right,p_value,significant
+ResNet20 | base (preserve 40x24),R38,ResNet18S | base (preserve 40x24) (R26),264,149,0.0,True
+DenseNetBC100 | base (preserve 40x24),R41,ResNet18S | base (preserve 40x24) (R26),234,139,0.0,True
+MSCNN | base (preserve 40x24),R35,ResNet18S | base (preserve 40x24) (R26),253,156,0.0,True
+WRN16_4 | reg (preserve 40x24),R50,ResNet18S | base (preserve 40x24) (R26),353,144,0.0,True
+DenseNetBC100 | reg (preserve 40x24),R59,ResNet18S | base (preserve 40x24) (R26),407,154,0.0,True
+ResNet20 | reg (preserve 40x24),R56,ResNet18S | base (preserve 40x24) (R26),361,158,0.0,True
+MSCNN | reg (preserve 40x24),R53,ResNet18S | base (preserve 40x24) (R26),507,131,0.0,True
+ResNet18S_scratch | reg (preserve 40x24),R47,ResNet18S | base (preserve 40x24) (R26),210,152,0.0027,True
+WRN16_4 | base (preserve 40x24),R32,ResNet18S | base (preserve 40x24) (R26),191,152,0.04,True
+ResNet18S | reg (preserve 40x24),R44,ResNet18S | base (preserve 40x24) (R26),179,151,0.1371,False
+ResNet50TL | 12 cls | sqrt,R20,ResNet18S | base (preserve 40x24) (R26),164,141,0.2077,False
+EffNetB0TL | 12 cls | sqrt,R23,ResNet18S | base (preserve 40x24) (R26),151,168,0.3704,False
+ResNet18S_scratch | base (preserve 40x24),R29,ResNet18S | base (preserve 40x24) (R26),147,154,0.7295,False

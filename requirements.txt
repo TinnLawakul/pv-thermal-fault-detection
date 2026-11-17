@@ -1,0 +1,13 @@
+# tested with Python 3.12.10, CUDA 12.6 (NVIDIA GeForce RTX 4070 Ti), Windows 11
+# install PyTorch for your CUDA version from https://pytorch.org first, e.g.:
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+matplotlib
+pillow
+openpyxl

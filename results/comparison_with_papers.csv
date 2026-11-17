@@ -1,0 +1,6 @@
+source,model,acc_12,acc_11_anomaly,acc_fault,macro_F1_12,notes
+Fonseca Alves et al. 2021 (Renewable Energy),CNN,,,0.925,,as reported in the abstract: 92.5 % fault/no-fault (cross-validation); 78.85 % on 8 selected anomaly classes
+Le et al. 2021 (SETA),ResNet-style ensemble,0.86,,0.94,,as reported (≈)
+Korkmaz & Açıkgöz 2022 (EAAI),multi-scale CNN + transfer learning,,0.935,0.973,,as reported; balanced by offline augmentation
+"This work: ResNet18TL | 12 cls | sqrt (single model, mean of 2 seeds)",single model,0.836,0.748,0.948,0.702,"this work, test set never resampled"
+This work: ResNet18TL | 12 cls | sqrt (2 seeds + TTA),seed ensemble,0.855,0.773,0.957,0.734,"this work, test set never resampled"

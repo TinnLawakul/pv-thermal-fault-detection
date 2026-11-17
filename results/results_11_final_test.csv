@@ -1,0 +1,3 @@
+model,acc,f1,f1_5,fault_acc,nll,ece,k_acc,ploss_err_pct
+ResNet18S base ensemble+TTA,0.8543,0.7307,0.8602,0.9567,0.5151,0.0484,0.976,-4.3143
+ResNet18S mixup ensemble+TTA,0.8513,0.7379,0.8507,0.954,0.4766,0.0494,0.9703,3.5439

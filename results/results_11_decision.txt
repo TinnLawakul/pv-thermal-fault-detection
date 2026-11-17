@@ -1,0 +1,10 @@
+SWITCH to ResNet18S + mixup: base is not reliably better on 5-group macro-F1, and mixup overfits significantly less.
+
+                    metric   base  mixup  mean_diff  sd_diff  corrected_t  p_value  P_base_better  ci_low  ci_high
+5-group macro-F1 (primary) 0.8266 0.8270    -0.0004   0.0132      -0.0568   0.9551            0.5  0.3333   0.6667
+         12-class macro-F1 0.7014 0.7018    -0.0004   0.0154      -0.0509   0.9598            0.5  0.3333   0.7000
+      |power-loss error| % 6.2213 5.4066     0.8147   5.2718       0.2903   0.7736            0.4  0.2333   0.6000
+              held-out NLL 0.7058 0.5737     0.1321   0.0302       8.2216   0.0000            0.0  0.0000   0.0000
+                       ECE 0.0909 0.0211     0.0698   0.0125      10.5003   0.0000            0.0  0.0000   0.0000
+           overfitting gap 0.6879 0.4335     0.2544   0.0262      18.2466   0.0000            0.0  0.0000   0.0000
+             val-loss rise 0.0637 0.0087     0.0550   0.0211       4.9053   0.0000            0.0  0.0000   0.0000

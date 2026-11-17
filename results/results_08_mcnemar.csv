@@ -1,0 +1,6 @@
+run,checkpoint,ref_only_correct,this_only_correct,p_value
+R62,es,178,97,0.0
+R65,f1sel,177,132,0.0122
+R65,es,177,132,0.0122
+R68,f1sel,231,130,0.0
+R68,es,285,129,0.0
